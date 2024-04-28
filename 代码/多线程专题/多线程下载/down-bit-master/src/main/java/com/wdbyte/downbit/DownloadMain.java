@@ -31,6 +31,7 @@ import com.wdbyte.downbit.util.ThunderUtils;
  */
 public class DownloadMain {
     // 下载线程数量
+
     public static int DOWNLOAD_THREAD_NUM = 5;
     // 下载线程池
     private static ExecutorService executor = Executors.newFixedThreadPool(DOWNLOAD_THREAD_NUM + 1);
