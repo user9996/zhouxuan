@@ -53,6 +53,12 @@ public class DownloadMain {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
+        System.out.println("开始下载工能");
+
+
+
+
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入要下载的链接:");
         String url = scanner.nextLine();
