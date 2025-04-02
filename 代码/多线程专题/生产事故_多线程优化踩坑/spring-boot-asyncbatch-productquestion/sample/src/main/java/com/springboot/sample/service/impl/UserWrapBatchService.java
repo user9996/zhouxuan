@@ -77,4 +77,25 @@ public class UserWrapBatchService {
     }
 
 
+    public static class Request {
+        private Long userId;
+        private String requestId;
+
+        // Getter and Setter
+        public Long getUserId() {
+            return userId;
+        }
+
+        public void setUserId(Long userId) {
+            this.userId = userId;
+        }
+
+        public String getRequestId() {
+            return requestId;
+        }
+
+        public void setRequestId(String requestId) {
+            this.requestId = requestId;
+        }
+    }
 }

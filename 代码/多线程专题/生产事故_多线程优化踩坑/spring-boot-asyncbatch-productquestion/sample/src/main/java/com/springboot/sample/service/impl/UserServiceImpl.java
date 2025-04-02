@@ -25,7 +25,7 @@ public class UserServiceImpl implements UserService {
         for (UserWrapBatchService.Request userReq : userReqs) {
             User user = new User();
             user.setId(userReq.getUserId());
-            user.setRequestId(userReq.requestId);
+            user.setRequestId(userReq.getRequestId());
             userList.add(user);
         }
 
